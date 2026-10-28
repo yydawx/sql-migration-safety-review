@@ -1,0 +1,4 @@
+interface:
+  display_name: "SQL Migration Safety Review"
+  short_description: "Review SQL migrations for locking, rollback, and rollout risks"
+  default_prompt: "Use $sql-migration-safety-review to review these migration files and report concrete correctness, lock, rollback, and compatibility risks."
